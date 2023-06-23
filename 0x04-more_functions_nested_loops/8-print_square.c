@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ *print_squaree - prints a square. followed by a newline
+ *
+ *@size: the size of the square
+ */
+
+void print_square(int size)
+{
+	if (size <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		int m, n;
+
+		for (m = 0; m < size; m++)
+		{
+			for (n = 0; n < size; n++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
+}
