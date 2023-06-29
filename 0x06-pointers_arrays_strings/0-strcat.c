@@ -2,30 +2,31 @@
 
 /**
  *_strcat - function that concatenates two strings
- *@*dest: string to be appended to
- *@*src: string to append
+ *@dest: string to be appended to
+ *@src: string to append
  *
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int j;
+	int m;
+	int n;
 
-	i = 0;
-	while (dest[i] != '\0')
+	m = 0;
+	while (dest[m] != '\0')
 	{
-		i++;
+		m++;
 	}
-	j = 0;
-	while (src[j] != '\0')
+	n = 0;
+	while (src[n] != '\0')
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+		dest[m] = src[n];
+		m++;
+		n++;
 	}
 
-	dest[i] = '\0';
+	dest[m] = '\0';
 	return (dest);
 }
 
