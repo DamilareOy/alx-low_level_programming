@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strpbrk - Searches a string for any of a set of bytes
- * @s: string 1 
+ * @s: string 1
  * @accept: string 2
  *
- * Return: Always 0 (Success)
+ * Return: pointer to byte in s or NULL
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -22,4 +22,3 @@ char *_strpbrk(char *s, char *accept)
 
 	return ('\0');
 }
-
