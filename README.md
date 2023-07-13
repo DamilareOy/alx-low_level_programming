@@ -15,3 +15,5 @@ C - Recursion
 C - malloc,free
 
 C - Static libraries
+
+C - argc, argv
