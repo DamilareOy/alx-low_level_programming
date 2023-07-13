@@ -8,6 +8,8 @@ C - More Functions and more nested loops
 
 C - Variables, if, else, while
 
-C -Pointers,arrays and strings
+C - Pointers,arrays and strings
 
-C -Recursion
+C - Recursion
+
+C - malloc,free
