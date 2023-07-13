@@ -13,3 +13,5 @@ C - Pointers,arrays and strings
 C - Recursion
 
 C - malloc,free
+
+C - Static libraries
