@@ -19,3 +19,5 @@ C - Static libraries
 C - argc, argv
 
 0x0D. C - Preprocessor
+
+0x0E. C - Structures, typedef
