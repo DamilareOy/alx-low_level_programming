@@ -23,3 +23,7 @@ C - argc, argv
 0x0E. C - Structures, typedef
 
 C - Function pointers
+
+C - Variadic functions
+
+C - Singly linked lists
