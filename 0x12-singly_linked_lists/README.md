@@ -1,6 +1,6 @@
 **ALX Software Engineering project on C - Singly linked lists**
 
-**File | Description** 
+**File | Description**
 
 ................ | .........................
 
