@@ -27,3 +27,5 @@ C - Function pointers
 C - Variadic functions
 
 C - Singly linked lists
+
+C - Bit manipulation
