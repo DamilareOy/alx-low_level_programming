@@ -21,7 +21,7 @@ int create_file(const char *filename, char *text_content)
 	}
 
 	fildes = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	byteswritten = write(fd, text_content, len);
+	byteswritten = write(fildes, text_content, len);
 
 	if (fildes == -1 || byteswritten == -1)
 		return (-1);
